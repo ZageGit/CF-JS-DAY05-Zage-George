@@ -46,5 +46,39 @@
     "emailAddress": "me@jokes.com",
     "jobTitle": "comedian",
     "salary": "100 $"
+  },
+  {
+    "uniqueID": 50,
+    "firstName": "Legolas",
+    "lastName": "Fastbow",
+    "emailAddress": "fastlegs@hasjhda.com",
+    "jobTitle": "Archer",
+    "salary": "20 ounces of elfish gold"
+  },
+  {
+    "uniqueID": 51,
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "emailAddress": "jane@hasjhda.com",
+    "jobTitle": "Keyboard-Warrior",
+    "salary": "Honor and Love"
+  },
+
+  {
+    "uniqueID": 52,
+    "firstName": "Hugo",
+    "lastName": "Rigoberto",
+    "emailAddress": "h.rigo@hasjhda.com",
+    "jobTitle": "Engineer",
+    "salary": "40K"
+  },
+
+  {
+    "uniqueID": 53,
+    "firstName": "Kevin",
+    "lastName": "Proberus",
+    "emailAddress": "prob.kev@gmail.com",
+    "jobTitle": "Doctor",
+    "salary": "100K"
   }
 ]
