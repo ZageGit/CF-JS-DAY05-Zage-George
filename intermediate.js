@@ -1,13 +1,18 @@
 console.log(employees);
 
+//reaching the table heading columns
 let heading = document.getElementById("heading").children;
+//reaching the keys that we need to populate the heading columns
 let keys = Object.keys(employees[0]);
+//reaching the table
 let table = document.getElementsByTagName("tbody")[0];
 
+//loop to populate the heading columns
 for (let i = 0; i < heading.length; i++) {
   heading[i].textContent = keys[i];
 }
 
+//loop to populate the rest of the table
 for (let i = 0; i < employees.length; i++) {
   let row = document.createElement("tr");
   row.classList.add("content");
