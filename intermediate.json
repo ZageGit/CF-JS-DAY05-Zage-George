@@ -1,4 +1,4 @@
-[
+var employ = [
   {
     "uniqueID": 39,
     "firstName": "Johannes",
