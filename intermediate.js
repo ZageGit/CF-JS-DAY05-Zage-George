@@ -15,6 +15,7 @@ for (let i = 0; i < employees.length; i++) {
     let column = document.createElement("td");
     column.innerText = employees[i][keys[j]];
     row.appendChild(column);
+    row.setAttribute("id", employees[i].uniqueID);
   }
   console.log(row);
   table.appendChild(row);
